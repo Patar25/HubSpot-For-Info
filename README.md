@@ -22,3 +22,7 @@ hs watch my-website-theme my-website-theme
 hs fetch --portal=<name> <src> <dest>
 hs fetch --portal=Patrickod my-website-theme my-website-theme
 (You must do this every time you watch to work with files in HubSpot and then run the watch command)
+
+- If you want to upload the watched directory when watch starts:
+hs watch <src> <dest> --initial-upload
+hs watch my-theme my-theme --initial-upload
