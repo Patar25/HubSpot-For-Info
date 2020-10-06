@@ -9,7 +9,7 @@ HubSpot CLI documentation - https://developers.hubspot.com/docs/cms/developer-re
 hs create website-theme my-website-theme
 
 - upload your project:
-hs upload --portal=<portal> <src> my-theme
+  -hs upload --portal=<portal> <src> my-theme
 hs upload my-website-theme my-website-theme
 (This uploads your project called "my-website-theme" to a folder called "my-website-theme" - first variable is the project, second is the folder)
 
