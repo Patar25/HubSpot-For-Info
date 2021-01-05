@@ -26,3 +26,5 @@ hs fetch --portal=Patrickod my-website-theme my-website-theme
 - If you want to upload the watched directory when watch starts:
 hs watch <src> <dest> --initial-upload
 hs watch my-theme my-theme --initial-upload
+  
+  IF YOU ARE GETTING ERRORS LIKE "code EACCESS" - ADD "sudo" BEFORE THE NPM INSTALL E.G "sudo npm install -g @hubspot/cms-cli"
